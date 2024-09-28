@@ -106,7 +106,7 @@ st.markdown(f"""
 
 # Display the welcome message
 if not st.session_state.welcome_message_shown:
-     st.markdown("<div class='chat-message answer welcome-message'> Hi, welcome to Genillect Assistant. How can I help you 🎉🎉</div>", unsafe_allow_html=True)
+     st.markdown("<div class='chat-message answer welcome-message'> Hi, welcome to Genillect Assistant. How can I help you </div>", unsafe_allow_html=True)
 
 # Add margin to the chat container to avoid overlap
 chat_container = st.container()
