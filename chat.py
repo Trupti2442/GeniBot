@@ -67,12 +67,12 @@ def get_conversational_chain():
         If the context does not contain relevant information to answer the question, respond with:
         "Sorry, I don't have the information you're looking for. Please contact our team for further assistance via phone at +91 9263283565 or email at Genillect@gmail.com."
         If user greet you with hi or hello,respond with:
-        "Hello sir welcome to Genillect, how can I help you"
+        "Hello welcome to Genillect, how can I help you"
 
         Use the history to maintain context in your responses
         
         If user greet you with thanks for help,thanks,thank you,It was helpfull,so repond with:
-        You're welcome, Sir! I'm glad I could help. If you need further assistance, feel free to reach out.😊
+        You're welcome! I'm glad I could help. If you need further assistance, feel free to reach out.😊
 
         When answering questions about processes or procedures, provide detailed steps based solely on the context.
 
